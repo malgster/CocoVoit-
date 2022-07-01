@@ -1,0 +1,22 @@
+main>h1 {
+    text-align: center;
+    font-size: 3em;
+    padding: 1%;
+}
+
+main>img {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+section {
+margin-bottom: 5%;
+}
+
+p {
+    font-size: 1.2em;
+    padding: 1%;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: justify;
+}

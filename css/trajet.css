@@ -1,0 +1,88 @@
+ul{
+    text-align: end;
+    list-style-type: none;
+    margin-right: 3%;
+    margin-bottom: -1%;
+}
+
+main h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.covoit {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.rechercher , .proposer , .location {
+    border: black solid 1px;
+    border-radius: 10px;
+    width: 40%;
+    margin:auto;
+    display: block;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: rgb(224, 227, 228); 
+    margin-bottom: 3%;
+}
+
+label {
+    font-size: 1.2em;
+}
+#depart, #arrivé, #horaire, #campus, #fin, #debut {
+
+    display: block;
+    width: 100%;
+    height: 35px;
+    line-height: 1.4;
+    color: black;
+    background-color: rgb(166, 216, 219);
+    border: 1px solid rgb(136, 132, 132);
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+}
+
+#departP, #arrivéP, #horaireP {
+    display: block;
+    width: 100%;
+    height: 19px;
+    line-height: 1.4;
+    color: black;
+    background-color: rgb(166, 216, 219);
+    border: 1px solid rgb(136, 132, 132);
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+}
+
+iframe{
+    padding-bottom: 3%;
+
+}
+
+#button{
+    background-color: #1F8388;
+    border-color: #1F8388;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    width: 101%;
+    height: 50px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+#button:hover{
+    background-color:#319499;
+}
